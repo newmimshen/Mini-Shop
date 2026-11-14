@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mini-shop-demo
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    autoDeploy: true
